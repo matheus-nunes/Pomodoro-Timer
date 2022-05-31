@@ -6,7 +6,7 @@ export default function Audios({ chuva, cafeteria, lareira, floresta }) {
     'https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true'
   )
   const chuval = new Audio('/soms/Chuva.wav')
-  const cafeterial = new Audio('/soms/Cafeteria.wav')
+  const cafeterial = new Audio('https://github.com/matheus-nunes/Pomodoro-Timer/blob/3beceb9333dd0093b60d787cc7829526ff68dc36/soms/Cafeteria.wav')
   const florestal = new Audio('/soms/Floresta.wav')
   const lareiral = new Audio('/soms/Lareira.wav')
 
