@@ -1,0 +1,262 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.light .mode:root {
+
+
+    --bg-color: #f1f1f1;
+}
+:root {
+
+    font-size: 62.5%;
+    --bg-color: #121214;
+
+    --base-color: 1000;
+    --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);  
+    --primary-color: hsl(var(--base-color), 100%, 63%);
+    
+    --back-som: #29292E;
+    
+}
+
+
+.dark-mode {
+
+
+    background-color: var(--bg-color);
+   
+
+}
+
+
+
+.light span {
+
+    color: black;
+
+}
+
+.floresta .ativado svg path {
+
+
+    color: black;
+
+}
+
+body {
+
+    background-color: rgb(231, 174, 236);
+}
+
+
+
+main {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 8.8rem;
+}
+
+body.dark-mode .play svg path:nth-child(1){
+
+
+    fill: rgb(6, 184, 238);
+}
+
+
+body.dark-mode .mais svg path:nth-child(1){
+
+
+    fill: rgb(255, 255, 255);
+}
+
+body.dark-mode .menos svg path:nth-child(1){
+
+
+    fill: rgb(255, 255, 255);
+}
+
+body.dark-mode .set svg path:nth-child(1){
+
+
+    fill: rgb(255, 255, 255);
+}
+body.dark-mode .stop svg path:nth-child(1){
+
+
+    fill: rgb(255, 255, 255);
+}
+
+.play svg path,
+.mais svg path,
+.menos svg path,
+.set svg path, 
+.stop svg path{
+
+    fill: #8600f3;
+}
+
+
+body.dark-mode .soms button{
+
+    background-color: #29292E;
+
+}
+
+body.dark-mode .soms .ativado {
+
+    background-color: #7d7d88;
+
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-top: 9rem;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 14rem;
+    margin-left: 15rem;
+
+    width: 32.1rem;
+    height: 21.3rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    
+}
+
+.hide {
+    display: none;
+}
+
+
+.soms .ativado  {
+
+    background: #cc1be4;
+}
+
+#controls {
+
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 99999px;
+    margin-left: 12.3rem;
+    width: 15rem;
+    height: 7rem;
+    gap: 1rem;
+
+    
+
+
+    
+}
+
+#dark-light {
+
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
+
+}
+
+
+
+#controls svg {
+
+    width: 48px;
+    height: 48px;
+}
+
+.soms svg path {
+    fill: rgb(255, 255, 255);
+}
+
+
+.soms button {
+    height: 150px;
+    width: 152px;
+    background-color: #45005a;
+    border-radius: 9px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.soms {
+
+    width: 308px;
+    height: 336px;
+    margin-top: 20rem;
+    margin-right: 30rem;
+    gap: 3rem;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.volume {
+    width: 7rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
